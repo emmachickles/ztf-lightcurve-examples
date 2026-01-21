@@ -1,0 +1,7 @@
+numpy
+pandas
+astropy
+
+[notebooks]
+jupyter
+ipykernel

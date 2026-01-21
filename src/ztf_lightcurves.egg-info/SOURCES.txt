@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/ztf-lightcurves/config.py
+src/ztf-lightcurves/ztf.py
+src/ztf-lightcurves/ztf_lc.py
+src/ztf_lightcurves.egg-info/PKG-INFO
+src/ztf_lightcurves.egg-info/SOURCES.txt
+src/ztf_lightcurves.egg-info/dependency_links.txt
+src/ztf_lightcurves.egg-info/requires.txt
+src/ztf_lightcurves.egg-info/top_level.txt

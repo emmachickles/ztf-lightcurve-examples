@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ztf-lightcurves"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "pandas",
+    "astropy",
+]
+
+[project.optional-dependencies]
+notebooks = [
+  "jupyter",
+  "ipykernel"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
