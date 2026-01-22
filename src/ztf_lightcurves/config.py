@@ -23,3 +23,12 @@ def get_fields_path():
     host = get_host()
     if host == "orcd":
         return Path("/orcd/data/kburdge/001/ZTF_Lightcurves/ZTF_Fields.txt")
+
+def get_repo_root():
+    return Path(__file__).parent.parent.parent
+
+def p(*parts):
+    return get_repo_root().joinpath(*parts)
+    
+def out_path(*parts):
+    return p("output", *parts)

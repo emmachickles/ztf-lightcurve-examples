@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from .timeseries import bin_phase_folded_data  # adjust import if your package layout differs
+from .config import out_path
 
 
 _FILTERID_STYLE = {
